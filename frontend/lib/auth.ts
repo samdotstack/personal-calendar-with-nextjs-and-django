@@ -1,13 +1,14 @@
 import { api } from "./api";
 
 type RegisterData = {
-  username: string;
+  firstName: string;
+  lastName: string;
   email: string;
   password: string;
 };
 
 type LoginData = {
-  username: string;
+  email: string;
   password: string;
 };
 
