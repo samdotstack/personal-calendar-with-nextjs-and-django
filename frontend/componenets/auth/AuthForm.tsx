@@ -52,7 +52,7 @@ export default function AuthForm({ onClose }: AuthFormProps) {
   };
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 p-6 backdrop-blur-sm">
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 p-6 backdrop-blur-sm">
       <div className="w-full max-w-md overflow-hidden rounded-2xl border border-slate-700 bg-slate-800 shadow-2xl">
         {/* Header */}
         <div className="relative border-b border-slate-700 px-6 py-6">
@@ -65,7 +65,7 @@ export default function AuthForm({ onClose }: AuthFormProps) {
             ×
           </button>
 
-          <h1 className="text-3xl font-bold text-slate-100">
+          <h1 className="text-2xl font-bold text-slate-100">
             {isLogin ? "Welcome back" : "Create your account"}
           </h1>
 
